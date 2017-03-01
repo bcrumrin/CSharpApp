@@ -195,5 +195,10 @@ namespace SoftTopics
             myCmd.ExecuteNonQuery();
             myConn.Close();
         }
+
+        private void txtCustomerCard_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

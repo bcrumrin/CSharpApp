@@ -166,6 +166,7 @@
             this.txtCustomerCard.Name = "txtCustomerCard";
             this.txtCustomerCard.Size = new System.Drawing.Size(100, 20);
             this.txtCustomerCard.TabIndex = 11;
+            this.txtCustomerCard.TextChanged += new System.EventHandler(this.txtCustomerCard_TextChanged);
             // 
             // CustomerManagement
             // 
